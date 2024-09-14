@@ -13,6 +13,9 @@ class MainViewModel(private val firestoreService: FirestoreService = FirestoreSe
     private val _companiesState = mutableStateOf(CompanyState())
     val companiesState: State<CompanyState> = _companiesState
 
+    init {
+        fetchCompanies()
+    }
 
     //fetch categories from firestore
     private fun fetchCompanies(){
