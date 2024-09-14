@@ -46,8 +46,6 @@ The `MainViewModel` handles the app's logic and data persistence. It fetches com
    - `webpage`: String
 5. Download the `google-services.json` file and place it in the `app` directory of your Android project.
 
-## Screenshots
-
 ## Contact
 For any questions or inquiries, feel free to reach out to me at [anclko@hotmail.com](mailto:anclko@hotmail.com).
 
